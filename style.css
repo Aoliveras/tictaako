@@ -1,0 +1,108 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 52px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}
+
+input {
+    margin: 50px auto;
+    display: block;
+}
+
+.sq1_1 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-right: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+    border-top-left-radius: 25px;
+}
+
+.sq1_2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid aquamarine;
+    border-right: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+}
+
+.sq1_3 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+    border-top-right-radius: 25px;
+}
+
+.sq2_1 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-top: 3px solid aquamarine;
+    border-right: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+}
+
+.sq2_2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-top: 3px solid aquamarine;
+    border-left: 3px solid aquamarine;
+    border-right: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+}
+
+.sq2_3 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid aquamarine;
+    border-top: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+}
+
+.sq3_1 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-top: 3px solid aquamarine;
+    border-right: 3px solid aquamarine;
+    border-bottom-left-radius: 25px;
+}
+
+.sq3_2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid aquamarine;
+    border-right: 3px solid aquamarine;
+    border-top: 3px solid aquamarine;    
+}
+
+.sq3_3 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid aquamarine;
+    border-top: 3px solid aquamarine;
+    border-bottom-right-radius: 25px;
+}
