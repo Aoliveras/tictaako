@@ -1,8 +1,12 @@
+* {
+    user-select: none;
+}
+
 body {
     background-color: aquamarine;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     margin: 20px auto;
 }
@@ -15,14 +19,17 @@ table {
 td {
     text-align: center;
     vertical-align: middle;
-    font-size: 52px;
+    font-size: 92px;
     font-family: 'Courier New', Courier, monospace;
     color: aquamarine;
 }
 
 input {
+    font-size: 40px;
     margin: 50px auto;
     display: block;
+    /* height: 40px; */
+    /* width: 55px; */
 }
 
 .sq1_1 {
