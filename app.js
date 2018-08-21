@@ -20,8 +20,36 @@ let r3c1 = document.querySelector('.sq3_1');
 let r3c2 = document.querySelector('.sq3_2');
 let r3c3 = document.querySelector('.sq3_3');
 let reSet = document.querySelector('input');
+//const winningCombos = [
+ //   [0, 1, 2],
+ //   [3, 4, 5],
+ //   [6, 7, 8],
+ //   [0, 3, 6],
+ //   [1, 4, 7],
+ //   [2, 5, 8],
+ //   [2, 4, 6],
+ //   [0, 4, 8]
+//];
 
 //functions
+
+// clearBoard.addEventListener('click', function(e) {
+    // e.target.innerHtml = currentMove;
+    // let nextMove = ( currentMove === "x" ? "o" : "x");
+// });
+
+function checkWin() {
+    if (r1c1.innerHTML === img1 && r1c2.innerHTML === img1 && r1c3.innerHTML === img1) {
+        window.alert('Winner Winner, Wizard 1 gets a tasty chicken dinner!');
+    };
+
+    //let cells = table.children;
+   // winningCombos.forEach(function(combo) {
+       // if (cells[combo[0]].innerHTML === img0 && cells[combo[1]].innerHTML === img0 && cells[combo[2]].innerHTML === img0) {
+        //    alert('Winner Winner Chicken Dinner!');
+      //  }
+   // })
+};
 
 function markSquare() {
     if (this.innerHTML == "&nbsp;") {
@@ -31,7 +59,7 @@ function markSquare() {
     } else { yourUp = 0;
     span.innerHTML = "1";
     }
-    } else ;
+    } else window.alert('Pick another square, ya dingus!');
 };
 
 function clearBoard () {
@@ -45,6 +73,7 @@ function clearBoard () {
     r3c2.innerHTML = "&nbsp;";
     r3c3.innerHTML = "&nbsp;";
     span.innerHTML = "1";
+    yourUp = 0;
 };
 
 function main() {
@@ -58,6 +87,7 @@ function main() {
     r3c2.addEventListener('click', markSquare);
     r3c3.addEventListener('click', markSquare);
     reSet.addEventListener('click', clearBoard);
+    checkWin();
 };
 
 main();
